@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夜市遊戲</title>
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="warp">
+        <header class="header container-fluid"></header>
+        <div class="stick ">
+            <img class="stickPhoto" src="./image/stick.png" alt="">
+        </div>
+        <main class="main">
+            <div class="photoTitle d-flex justify-content-center">
+                <img class="photo" src="./image/無尾熊.png" alt="">
+                <img class="photo" src="./image/豬.png" alt="">
+                <img class="photo" src="./image/狗.png" alt="">
+                <img class="photo" src="./image/熊貓.png" alt="">
+                <img class="photo" src="./image/熊.png" alt="">
+                <img class="photo" src="./image/青蛙.png" alt="">
+                <img class="photo" src="./image/老虎.png" alt="">
+                <img class="photo" src="./image/熊貓.png" alt="">
+            </div>
+            <div class="fraction d-flex  justify-content-around">
+                <div class="Score">
+                    <p class="status">總分:0</p>
+                </div>
+                <div class="numberOftimes">
+                    <p class="numberOftimesList">剩餘次數:7</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="row d-flex justify-content-around">
+                    <div class="Turntable">
+                        <div class="ballOne"><img src="./image/氣球- 黃.png" alt=""></div>
+                        <div class="ballTwo"><img src="./image/氣球- 紅.png" alt=""></div>
+                        <div class="ballThree"><img src="./image/氣球-藍.png" alt=""></div>
+                        <div class="ballFour"><img src="./image/氣球- 橘.png" alt=""></div>
+                    </div>
+                    <div class="TurntableTwo">
+                        <div class="ballfive"><img src="./image/氣球-藍.png" alt=""></div>
+                        <div class="ballsix"><img src="./image/氣球- 橘.png" alt=""></div>
+                        <div class="ballseven"><img src="./image/氣球- 黃.png" alt=""></div>
+                        <div class="ballEight"><img src="./image/氣球- 紅.png" alt=""></ </div>
+                        </div>
+                    </div>
+                    <div class="boss">
+                        <img class="bossPhoto" src="./image/boss.png">
+                    </div>
+                </div>
+        </main>
+        <div class="stall">
+            <!-- <img src="./image/攤位.png" alt=""> -->
+        </div>
+        <!-- 燈箱效果 -->
+        <div class="overlay">
+            <article>
+                <h1>遊戲說明</h1>
+                <p>擊破1顆氣球得1分,共有七次機會</p>
+                <button type="button" class="btn_modal_close">遊戲開始</button>
+            </article>
+        </div>
+        <footer></footer>
+    </div>
+    <!-- 遊戲結束 -->
+    <div class="gameOver">
+        <div class="gameOvertext">
+            <h1>GameOver</h1>
+            <button type="button" class="index">
+                <a href="https://github.com/">回首頁</a>
+            </button>
+            <button type="button" class="gameOverbutton">在玩一次</button>
+        </div>
+    </div>
+    <script src="./all.js"></script>
+</body>
+
+</html>
